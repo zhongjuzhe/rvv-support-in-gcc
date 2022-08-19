@@ -169,7 +169,7 @@ Search the keyword can see overal changes in the middle-end codes of GCC. For ex
 Note: 
 1. The patterns with "len_" prefix (len_*{OP}) patterns are the operations predicated by vector length only.
 2. The patterns with "len_mask_" prefix (len_mask_*{OP}) patterns are the operations predicated by vector length && mask both.
-3. The patterns with "len_cond_" prefix (len_cond_*{OP}) patterns are the operations predicated by vector length && mask both
+3. The patterns with "len_cond_" prefix (len_cond_*{OP}) patterns are the operations predicated by vector length && mask both.
 4. The patterns with "_vs" or "_sv" suffix ({OP}*_vs or {OP}*_sv) are the operations perform between vector and scalar. (GCC only support vector operation between
    vector and vector except shift operation.)
 5. The patterns with "vec_convert_" are the mixed precision operations perform between signed and unsigned integer.
